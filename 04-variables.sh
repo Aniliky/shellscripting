@@ -1,5 +1,5 @@
 #!/bin/bash
 
-Date=$((date))
+Date=$(date)
 
 echo "today date and time is: $Date"
