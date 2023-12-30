@@ -10,3 +10,16 @@ else
     echo "root user"
 fi
 yum install mysql -y 
+
+if [ $? -ne 0 ]
+then    
+    echo "ERROR: installing mysql failed"
+else
+    echo "installing mysql success"
+yum install git -y
+
+if [ $?-ne 0 ]
+then 
+    echo "ERROR: installing git failed"
+else    
+    echo "installing git success"
